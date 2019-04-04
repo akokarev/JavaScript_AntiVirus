@@ -49,3 +49,4 @@ var WScript = {
 function doGet(e) {
   return ContentService.createTextOutput(Logger.getLog());
 }
+//======AntiVirus=======

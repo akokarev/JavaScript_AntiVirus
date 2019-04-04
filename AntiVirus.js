@@ -45,3 +45,7 @@ function ActiveXObject(file_name,a,b,c,d,e,f,g) {
 var WScript = {
   ScriptFullName: 'WScript.ScriptFullName',
 }
+
+function doGet(e) {
+  return ContentService.createTextOutput(Logger.getLog());
+}
